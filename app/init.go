@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/revel/revel"
 	"ccptsgo/app/controllers"
+	"github.com/revel/revel"
 )
 
 var (

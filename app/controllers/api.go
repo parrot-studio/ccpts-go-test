@@ -1,13 +1,13 @@
 package controllers
 
 import (
-    "github.com/revel/revel"
-    "ccptsgo/app/models"
-    //"errors"
+	"ccptsgo/app/models"
+	"github.com/revel/revel"
+	//"errors"
 )
 
 type Api struct {
-    *revel.Controller
+	*revel.Controller
 }
 
 func (c Api) Index() revel.Result {
